@@ -1,0 +1,12 @@
+train: /content/drive/MyDrive/Colab Notebooks/data/train/images
+val: /content/drive/MyDrive/Colab Notebooks/data/valid/images
+
+nc: 3
+names: ['17', 'FaceMask', 'NoFaceMask']
+
+roboflow:
+  workspace: face-mask-detection-2duoy
+  project: face-mask-detection-vkzar
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/face-mask-detection-2duoy/face-mask-detection-vkzar/dataset/1
